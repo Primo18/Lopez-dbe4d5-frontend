@@ -1,8 +1,29 @@
-# React + Vite
+# NoteApp Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is the frontend for the NoteApp project, a single-page application (SPA) built using React. It allows users to manage their notes with features like creating, editing, deleting, and categorizing notes.
 
-Currently, two official plugins are available:
+## Deployment
+The frontend is live and accessible at:
+- URL: `https://ensolvers-noteapp.netlify.app/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend Connection
+The frontend connects to the backend API at:
+- Base URL: `https://lopez-dbe4d5-backend.onrender.com/api`
+
+## Default Credentials
+For login purposes, use the following default credentials:
+- **email:** user@email.com
+- **Password:** 123
+
+## Setup Instructions
+
+1. Ensure the setup script has execute permissions (if not already set):
+   ```bash
+   chmod +x setup.sh
+   ```
+
+2. Run the setup script:
+   ```bash
+   ./setup.sh
+   ```
